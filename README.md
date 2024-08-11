@@ -1,4 +1,4 @@
-# auto2
+# Urdu Spell Checker with Suggestions
 
 This project is an Urdu spell checker that takes user input in Urdu, checks the spelling against a dictionary on the frontend, and highlights incorrect words by underlining them in red. When the user long-clicks on a misspelled word, an API call is made to a Flask backend to provide the most probable suggestions. The suggestions are generated based on the closest match and the word's frequency in the language, providing the user with the optimal correction. If no suitable suggestion is found, the user has the option to add the word to the dictionary.
 
