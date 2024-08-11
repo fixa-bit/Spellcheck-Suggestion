@@ -1,16 +1,26 @@
 # auto2
 
-A new Flutter project.
+This project is an Urdu spell checker that takes user input in Urdu, checks the spelling against a dictionary on the frontend, and highlights incorrect words by underlining them in red. When the user long-clicks on a misspelled word, an API call is made to a Flask backend to provide the most probable suggestions. The suggestions are generated based on the closest match and the word's frequency in the language, providing the user with the optimal correction. If no suitable suggestion is found, the user has the option to add the word to the dictionary.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+* Real-time Urdu spell checking: Automatically checks the spelling of words as the user types.
+* Visual indication of errors: Misspelled words are underlined in red.
+* Interactive correction suggestions: On long-clicking a misspelled word, suggestions are provided based on the closest match and frequency in the Urdu language.
+* Custom dictionary management: Users can add new words to the dictionary if no suitable suggestion is found.
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
+* Frontend: Flutter (Dart)
+* Backend: Python (Flask)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Usage
+1. Input Urdu text: Start typing in Urdu. The app will automatically underline any misspelled words in red.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. View suggestions: Long-click on a misspelled word to see a list of suggested corrections. The suggestions are ordered based on their match to the original word and their frequency in the Urdu language.
+
+3. Correct or add words: Select a suggestion to correct the word or choose to add the word to your dictionary if it's not misspelled.
+
+
+
+
+
