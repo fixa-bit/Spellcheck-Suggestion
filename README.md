@@ -20,6 +20,7 @@ This project is an Urdu spell checker that takes user input in Urdu, checks the 
 
 3. Correct or add words: Select a suggestion to correct the word or choose to add the word to your dictionary if it's not misspelled.
 
+[![Watch the video](https://raw.githubusercontent.com/fixa-bit/spellcheck-suggestion/spell_checker_thumbnail.png)](https://raw.githubusercontent.com/fixa-bit/spellcheck-suggestion/Spelling Suggestion.webm)
 
 
 
