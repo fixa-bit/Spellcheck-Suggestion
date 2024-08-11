@@ -24,6 +24,7 @@ This project is an Urdu spell checker that takes user input in Urdu, checks the 
 
 [![Watch the video](https://raw.githubusercontent.com/fixa-bit/spellcheck-suggestion/spell_checker_thumbnail.png)](https://raw.githubusercontent.com/fixa-bit/spellcheck-suggestion/branch/demo.mp4)
 
+[![Watch the video](https://github.com/fixa-bit/spellcheck-suggestion/blob/main/spell_checker_thumbnail.png?raw=true)](https://github.com/fixa-bit/spellcheck-suggestion/blob/main/demo2.mp4)
 
 
 
